@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
@@ -28,10 +27,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB           &kp Q                 &kp W               &kp E               &kp R                &kp T             &kp Y    &kp U        &kp I                      &kp O           &kp P                   &kp BSPC
-&kp LEFT_CONTROL  &mt LEFT_GUI A        &mt LEFT_ALT S      &mt LEFT_SHIFT D    &mt LEFT_CONTROL F   &mt CAPSLOCK G    &kp H    &mt LCTRL J  &mt LEFT_SHIFT K           &mt LEFT_ALT L  &mt LEFT_GUI SEMICOLON  &kp SQT
-&kp LSHFT         &mt LC(LEFT_SHIFT) Z  &mt LS(LEFT_ALT) X  &mt LC(LEFT_ALT) C  &mt LS(LA(LCTRL)) V  &kp B             &kp N    &kp M        &kp COMMA                  &kp DOT         &kp FSLH                &lt 4 ESC
-                                                            &kp LEFT_ALT        &mo 1                &kp SPACE         &kp RET  &mo 2        &mt LEFT_CONTROL LEFT_GUI
+&kp TAB           &kp Q                 &kp W               &kp E               &kp R                &kp T             &kp Y        &kp U        &kp I                      &kp O           &kp P                   &kp BSPC
+&kp LEFT_CONTROL  &mt LEFT_GUI A        &mt LEFT_ALT S      &mt LEFT_SHIFT D    &mt LEFT_CONTROL F   &mt CAPSLOCK G    &kp H        &mt LCTRL J  &mt LEFT_SHIFT K           &mt LEFT_ALT L  &mt LEFT_GUI SEMICOLON  &kp SQT
+&kp LSHFT         &mt LC(LEFT_SHIFT) Z  &mt LS(LEFT_ALT) X  &mt LC(LEFT_ALT) C  &mt LS(LA(LCTRL)) V  &kp B             &kp N        &kp M        &kp COMMA                  &kp DOT         &kp FSLH                &kp ESC
+                                                            &kp LEFT_ALT        &mo 1                &kp SPACE         &lt 4 ENTER  &mo 2        &mt LEFT_CONTROL LEFT_GUI
             >;
         };
 
@@ -44,10 +43,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&kp ESC           &kp N1                &kp N2              &kp N3                &kp N4                    &kp N5       &kp N6    &kp N7         &kp N8       &kp N9     &kp N0  &kp BSPC
+&kp LEFT_CONTROL  &sk LEFT_GUI          &sk LEFT_ALT        &sk LEFT_SHIFT        &sk LEFT_CONTROL          &trans       &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
+&kp LSHFT         &sk LS(LEFT_CONTROL)  &sk LA(LEFT_SHIFT)  &sk LA(LEFT_CONTROL)  &sk LS(LA(LEFT_CONTROL))  &trans       &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &kp LEFT_SHIFT
+                                                            &kp LGUI              &trans                    &kp SPACE    &kp RET   &trans         &kp RALT
             >;
         };
 
