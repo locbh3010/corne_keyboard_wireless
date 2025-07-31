@@ -30,7 +30,7 @@
             bindings = <
 &kp TAB           &kp Q                 &kp W               &kp E               &kp R                &kp T             &kp Y    &kp U        &kp I                      &kp O           &kp P                   &kp BSPC
 &kp LEFT_CONTROL  &mt LEFT_GUI A        &mt LEFT_ALT S      &mt LEFT_SHIFT D    &mt LEFT_CONTROL F   &mt CAPSLOCK G    &kp H    &mt LCTRL J  &mt LEFT_SHIFT K           &mt LEFT_ALT L  &mt LEFT_GUI SEMICOLON  &kp SQT
-&kp LSHFT         &mt LC(LEFT_SHIFT) Z  &mt LS(LEFT_ALT) X  &mt LC(LEFT_ALT) C  &mt LS(LA(LCTRL)) V  &kp B             &kp N    &kp M        &kp COMMA                  &kp DOT         &kp FSLH                &kp ESC
+&kp LSHFT         &mt LC(LEFT_SHIFT) Z  &mt LS(LEFT_ALT) X  &mt LC(LEFT_ALT) C  &mt LS(LA(LCTRL)) V  &kp B             &kp N    &kp M        &kp COMMA                  &kp DOT         &kp FSLH                &lt 4 ESC
                                                             &kp LEFT_ALT        &mo 1                &kp SPACE         &kp RET  &mo 2        &mt LEFT_CONTROL LEFT_GUI
             >;
         };
@@ -68,5 +68,14 @@
         };
 
         extra_1 { status = "reserved"; };
+
+        functional {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
     };
 };
