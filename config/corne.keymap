@@ -28,10 +28,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB           &kp Q                 &kp W               &kp E               &kp R                &kp T             &kp Y        &kp U        &kp I                      &kp O           &kp P                   &kp BSPC
-&kp LEFT_CONTROL  &mt LEFT_GUI A        &mt LEFT_ALT S      &mt LEFT_SHIFT D    &mt LEFT_CONTROL F   &mt CAPSLOCK G    &kp H        &mt LCTRL J  &mt LEFT_SHIFT K           &mt LEFT_ALT L  &mt LEFT_GUI SEMICOLON  &kp SQT
-&kp LSHFT         &mt LC(LEFT_SHIFT) Z  &mt LS(LEFT_ALT) X  &mt LC(LEFT_ALT) C  &mt LS(LA(LCTRL)) V  &kp B             &kp N        &kp M        &kp COMMA                  &kp DOT         &kp FSLH                &kp ESC
-                                                            &kp LEFT_ALT        &mo 1                &kp SPACE         &lt 4 ENTER  &mo 2        &mt LEFT_CONTROL LEFT_GUI
+&kp TAB           &kp Q                 &kp W               &kp E               &kp R                &kp T             &kp Y        &kp U        &kp I             &kp O           &kp P            &kp BSPC
+&kp LEFT_CONTROL  &mt LEFT_GUI A        &mt LEFT_ALT S      &mt LEFT_SHIFT D    &mt LEFT_CONTROL F   &mt CAPSLOCK G    &kp H        &mt LCTRL J  &mt LEFT_SHIFT K  &mt LEFT_ALT L  &lt 5 SEMICOLON  &kp SQT
+&kp LSHFT         &mt LC(LEFT_SHIFT) Z  &mt LS(LEFT_ALT) X  &mt LC(LEFT_ALT) C  &mt LS(LA(LCTRL)) V  &kp B             &kp N        &kp M        &kp COMMA         &kp DOT         &kp FSLH         &kp ESC
+                                                            &kp LEFT_ALT        &mo 1                &kp SPACE         &lt 4 ENTER  &mo 2        &kp LEFT_GUI
             >;
         };
 
@@ -82,6 +82,15 @@
 &sys_reset      &bt BT_SEL 0   &bt BT_SEL 1       &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4    &kp LC(N1)  &kp LC(N2)  &kp LC(N3)  &kp LC(N4)  &kp LC(N5)  &trans
 &bootloader     &trans         &trans             &trans         &trans         &trans          &trans      &trans      &trans      &trans      &trans      &trans
                                                   &trans         &trans         &trans          &trans      &trans      &trans
+            >;
+        };
+
+        hyprland {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
