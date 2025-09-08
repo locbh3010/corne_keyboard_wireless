@@ -88,7 +88,7 @@
         hyprland {
             bindings = <
 &kp LG(D)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp LG(LC(LEFT_ARROW))  &kp LC(LG(DOWN_ARROW))  &kp LC(LG(UP_ARROW))  &kp LC(LG(RIGHT))  &trans  &trans
-&trans     &kp LG(ENTER)     &trans            &trans            &trans            &trans              &kp LG(LEFT_ARROW)      &kp LG(DOWN)            &kp LG(UP_ARROW)      &kp LG(RIGHT)      &trans  &trans
+&trans     &kp LG(ENTER)     &trans            &trans            &trans            &trans              &kp LG(LEFT_ARROW)      &kp LG(DOWN)            &kp LG(UP_ARROW)      &kp LG(RIGHT)      &trans  &kp LEFT_SHIFT
 &trans     &trans            &trans            &trans            &trans            &trans              &kp LS(LG(LEFT_ARROW))  &kp LS(LG(DOWN_ARROW))  &kp LS(LG(UP_ARROW))  &kp LS(LG(RIGHT))  &trans  &kp LG(Q)
                                                &trans            &trans            &trans              &trans                  &trans                  &trans
             >;
