@@ -28,10 +28,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB           &kp Q                 &kp W               &kp E               &kp R                &kp T             &kp Y        &kp U        &kp I             &kp O           &kp P            &kp BSPC
-&kp LEFT_CONTROL  &mt LEFT_GUI A        &mt LEFT_ALT S      &mt LEFT_SHIFT D    &mt LEFT_CONTROL F   &mt CAPSLOCK G    &kp H        &mt LCTRL J  &mt LEFT_SHIFT K  &mt LEFT_ALT L  &lt 5 SEMICOLON  &kp SQT
-&kp LSHFT         &mt LC(LEFT_SHIFT) Z  &mt LS(LEFT_ALT) X  &mt LC(LEFT_ALT) C  &mt LS(LA(LCTRL)) V  &kp B             &kp N        &kp M        &kp COMMA         &kp DOT         &kp FSLH         &kp ESC
-                                                            &kp LEFT_ALT        &mo 1                &kp SPACE         &lt 4 ENTER  &mo 2        &kp LEFT_GUI
+&kp TAB           &kp Q                 &kp W               &kp E               &kp R                &kp T             &kp Y        &kp U        &kp I             &kp O           &kp P          &kp BSPC
+&kp LEFT_CONTROL  &mt LEFT_GUI A        &mt LEFT_ALT S      &mt LEFT_SHIFT D    &mt LEFT_CONTROL F   &mt CAPSLOCK G    &kp H        &mt LCTRL J  &mt LEFT_SHIFT K  &mt LEFT_ALT L  &kp SEMICOLON  &kp SQT
+&kp LSHFT         &mt LC(LEFT_SHIFT) Z  &mt LS(LEFT_ALT) X  &mt LC(LEFT_ALT) C  &mt LS(LA(LCTRL)) V  &kp B             &kp N        &kp M        &kp COMMA         &kp DOT         &kp FSLH       &kp ESC
+                                                            &kp LEFT_ALT        &mo 1                &lt 5 SPACE       &lt 4 ENTER  &mo 2        &kp LEFT_GUI
             >;
         };
 
@@ -87,10 +87,10 @@
 
         hyprland {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&kp LG(D)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp LG(LC(LEFT_ARROW))  &kp LC(LG(DOWN_ARROW))  &kp LC(LG(UP_ARROW))  &kp LC(LG(RIGHT))  &trans  &trans
+&trans     &kp LG(ENTER)     &trans            &trans            &trans            &trans              &kp LG(LEFT_ARROW)      &kp LG(DOWN)            &kp LG(UP_ARROW)      &kp LG(RIGHT)      &trans  &trans
+&trans     &trans            &trans            &trans            &trans            &trans              &kp LS(LG(LEFT_ARROW))  &kp LS(LG(DOWN_ARROW))  &kp LS(LG(UP_ARROW))  &kp LS(LG(RIGHT))  &trans  &kp LG(Q)
+                                               &trans            &trans            &trans              &trans                  &trans                  &trans
             >;
         };
     };
